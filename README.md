@@ -1,33 +1,30 @@
-### Chage directory working folder: place where Appplications to be created
+### Step 1: Open terminal in vscode
+### Step 2:
 ```
-cd Datastructures
+gh auth login
 ```
-### Creating Application: Option 1: clone and Option 2: Create
+clone Repository from internet  
+```
+git clone [HTTPS URL]
+```
+verify remote repository  
+```
+git remote -v
+```
+Do some work  
+stage your chnages  
+```
+git add .
+```
+Commit Change
+```
+git commit -m "updating master"
+```
+Push Changes to remote repository
+```
+git push origin master
+```
 
-### Option1: Clone this repository to git  
-Command to clone
-```
-git clone URL
-```
-
-
-
-> [!caution]
-> `Not for users
-> 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
-> Personal access tokens (classic): Profile>settings>Developer Settings>Personal access tokens (classic)`
-
-Push your changes
-Example: create file in local repository then run following command to stage it
-```
-git add fourth.c
-```
-```
-git commit -m "Uploading Fourth program"
-```
-```
-git push origin main
-```
 pull changes made by others
 ```
 git pull origin main
