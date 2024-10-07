@@ -3,6 +3,7 @@ int main(int argc, char const *argv[])
 {
     /* code */
     printf("This is seven th program");
-    printf("harsha plz enter data ");
+    printf("this change is made after commit");
+    printf("");
     return 0;
 }
